@@ -13,27 +13,28 @@
 </header>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-8 col-xs-12">
             <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5" id="to-eat">
+                <div class="col-sm-1 col-xs-0"></div>
+                <div class="col-sm-5 col-xs-12" id="to-eat">
                     <h2 class="text-center special">burgers to eat!</h2>
 
                     <ul>
                         {{#each burgers}} {{#unless devoured}}
-                        <p> {{burger_name}} &nbsp;&nbsp;
-                            <button type="submit" id="change-devour" class="btn btn-success btn-devour" data-id="{{id}}" data-newdevour="{{devour}}">Devour</button>
-                        </p>
+                        <button type="submit" id="change-devour" class="btn btn-success btn-devour" data-id="{{id}}" data-newdevour="{{devour}}">Devour</button>
+                        <p class="para"> {{burger_name}} </p>
+                        
+                        
                         {{/unless}} {{/each}}
                     </ul>
                 </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5" id="eaten">
+                <div class="col-sm-1 col-xs-0"></div>
+                <div class="col-sm-5 col-xs-12" id="eaten">
                     <h2 class="text-center special">Eaten! Yum!</h2>
                     <ul class="text-center">
 
                         {{#each burgers}} {{#if devoured}}
-                        <p> {{this.burger_name}}</p>
+                        <p class="para" id="show-me"> {{this.burger_name}}</p>
                         {{/if}} {{/each}}
 
                     </ul>
@@ -41,7 +42,7 @@
             </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-xs-0">
 
         </div>
     </div>
