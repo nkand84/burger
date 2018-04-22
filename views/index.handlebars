@@ -20,7 +20,7 @@
                     <ul class="text-center">
                         {{#each burgers}} {{#unless devoured}}
                         <p> {{burger_name}} &nbsp;&nbsp;&nbsp;&nbsp;
-                            <button type="submit" id="change-devour" class="btn btn-success" data-id="{{id}}">Devour</button>
+                            <button type="submit" id="change-devour" class="btn btn-success btn-devour" data-id="{{id}}"  data-newdevour="{{devour}}">Devour</button>
                         </p>
                         {{/unless}} {{/each}}
                     </ul>
