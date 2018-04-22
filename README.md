@@ -17,7 +17,7 @@
 <ul>
 <li>npm install</li>
 </ul>
-<p>Finally, run the node server locally.</p>
+<p>Finally, run the node server</p>
 <ul><li> nodemon server.js</li></ul>
 <p>Now, open the local application on port 3000 at the URL: http://localhost:8080/</p>
 
