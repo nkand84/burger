@@ -9,15 +9,16 @@
 <p>Express, Body-Parser, MySQL,handlebars</p>
 <h4>Installation</h4>
 <p>To run the application locally, first clone this repository with the following command.</p>
-
-git clone 
+<ul>
+<li>git clone </li>
+</ul>
 <p>Next, install the application dependencies.</p>
-
-cd eat-da-burger
-npm install
+<ul>
+<li>cd burger</li>
+<li>npm install</li>
+</ul>
 <p>Finally, run the node server locally.</p>
-
-nodemon server.js
+<ul><li> nodemon server.js</li></ul>
 <p>Now, open the local application on port 3000 at the URL: http://localhost:3000/</p>
 
 <p>Enjoy a burger!</p>
