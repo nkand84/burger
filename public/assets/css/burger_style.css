@@ -9,16 +9,24 @@ html{
     text-rendering: optimizeLegibility;
 }
 body{
-    height: 100vh;
+    height: auto;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/img/wall1.jpg");
     background-position: center;
     background-size: cover;
     color: #fff;
     font-size: 20px;
+    
 }
-
+#left-half{
+    background-color: rgba(161, 153, 153,0.45);
+    width: 600px;
+}
+#right-half{
+    background-color: rgba(226, 157, 92, 0.45);
+    width: 400px;
+}
 h1{
-    padding-left: 10px;
+    padding-left: 70px;
     color: rgba(255, 255, 255, 0.692);
     font-size: 55px;
     text-transform: uppercase;
@@ -28,9 +36,12 @@ h1{
     
 }
 h2{
+    border-radius:10px;
+    background-color: rgba(182, 148, 97,0.4);
     color: rgba(255, 255, 255, 0.692);
     text-transform: capitalize;
     letter-spacing: 2px;
+    font-weight: 600;
    
 }
 
@@ -51,8 +62,10 @@ h2{
     
 }
 #create-form{
-    margin-bottom: 40px;
-    padding-left: 10px;
+    margin-bottom: 100px;
+    padding-left: 70px;
+    padding-bottom:40px;
+    
 }
 .container-fluid{
     
