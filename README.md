@@ -19,6 +19,6 @@
 </ul>
 <p>Finally, run the node server locally.</p>
 <ul><li> nodemon server.js</li></ul>
-<p>Now, open the local application on port 3000 at the URL: http://localhost:3000/</p>
+<p>Now, open the local application on port 3000 at the URL: http://localhost:8080/</p>
 
 <p>Enjoy a burger!</p>
