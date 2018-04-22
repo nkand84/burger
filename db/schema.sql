@@ -12,6 +12,6 @@ CREATE TABLE burgers
 );
 
 
-DELETE FROM burgers;
+DELETE FROM burgers WHERE id = 23;
 
 SELECT * FROM burgers;
