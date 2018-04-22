@@ -10,11 +10,11 @@
 <h4>Installation</h4>
 <p>To run the application locally, first clone this repository with the following command.</p>
 <ul>
-<li>git clone </li>
+<li>git clone https://github.com/nkand84/burger.git</li>
+<li>cd burger</li>
 </ul>
 <p>Next, install the application dependencies.</p>
 <ul>
-<li>cd burger</li>
 <li>npm install</li>
 </ul>
 <p>Finally, run the node server locally.</p>
