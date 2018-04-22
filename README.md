@@ -6,7 +6,7 @@
 <p>Each burger in the waiting area also has a Devour! button. When the user clicks it, the burger will move to the right side of the page.</p>
 <p>Your app will store every burger in a database, whether devoured or not.</p>
 <h4>NPM Packages Required</h4>
-<p>Express, Body-Parser, MySQL,handlebars</p>
+<p>Express, Body-Parser, MySQL,handlebars,nodemon</p>
 <h4>Installation</h4>
 <p>To run the application locally, first clone this repository with the following command.</p>
 <ul>
