@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight:100;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/img/wall1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+h1{
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 55px;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    
+}
+h2{
+    color: rgba(255, 255, 255, 0.692);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+/* #create-form{
+    
+} */
+.btn{
+    background-color: #e67622 !important;
+    color: rgba(255, 255, 255, 0.911);
+    border: none;
+}
+.btn:hover{
+    background-color: #cf6d17;
+    color: rgba(255, 255, 255, 0.514);
+    transition: background-color 0.2s,color 0.2s,border 0.2s;
+}
+#burg{
+    background-color: #e9d3c1b6 !important;
+    border: none;
+    
+}
+#create-form{
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+.container-fluid{
+    
+    height:auto;
+}
+#to-eat,#eaten{
+    background-color:  rgba(255, 255, 255, 0.253);
+    border-radius: 20px;
+}
+
+/* color: #e67622; */
