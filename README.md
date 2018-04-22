@@ -10,7 +10,7 @@
 <h4>Installation</h4>
 <p>To run the application locally, first clone this repository with the following command.</p>
 
-git clone git@github.com:angrbrd/eat-da-burger.git
+git clone 
 <p>Next, install the application dependencies.</p>
 
 cd eat-da-burger
