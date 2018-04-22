@@ -13,20 +13,25 @@ router.get("/", function (req, res) {
             burgers: data
         };
         console.log(hbsObject);
-        res.render("index", hbsObject);
+        res.render("index" , hbsObject);
     });
+    
 });
 
-router.post("/api/burgers", function(req, res) {
+router.post("/api/burgers", function (req, res) {
     burger.insertOne([
-      "burger_name"
+        "burger_name"
     ], [
-      req.body.name
-    ], function(result) {
-      // Send back the ID of the new quote
-      res.json({ id: result.insertId });
-    });
-  });
+            req.body.name
+        ], function (result) {
+           console.log(result);
+            // Send back the ID of the new quote
+           res.json({ id: result.insertId });
+            //    display the new burger in the left div with devour button
+           
+
+        });
+});
 
 
 

@@ -10,3 +10,8 @@ CREATE TABLE burgers
 	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
+
+
+DELETE FROM burgers;
+
+SELECT * FROM burgers;
