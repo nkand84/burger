@@ -14,4 +14,6 @@ CREATE TABLE burgers
 
 DELETE FROM burgers WHERE id = 23;
 
+UPDATE burgers SET devoured=true WHERE id=26;
+
 SELECT * FROM burgers;
