@@ -6,6 +6,7 @@
 <p>Each burger in the waiting area also has a Devour! button. When the user clicks it, the burger will move to the right side of the page.</p>
 <p>Your app will store every burger in a database, whether devoured or not.</p>
 <p>Link to Deployed Site::  <a href="https://burger-app-nk.herokuapp.com/">Burger</a></p>
+<img src="public/assets/img/burger-app.jpg" alt="burger-app">
 <h4>NPM Packages Required</h4>
 <p>Express, Body-Parser, MySQL,handlebars,nodemon</p>
 <h4>Installation</h4>
