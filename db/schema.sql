@@ -12,7 +12,7 @@ CREATE TABLE burgers
 );
 
 
-DELETE FROM burgers WHERE id = 23;
+DELETE FROM burgers WHERE id = 42;
 
 UPDATE burgers SET devoured=true WHERE id=26;
 
