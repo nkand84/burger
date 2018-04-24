@@ -10,7 +10,7 @@ else {
     host: "localhost",
     user: "root",
     password: "password",
-    database: "burgers_db"
+    database: "burgers_db"  
   });
 }
 
